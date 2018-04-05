@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Reserved Disabled</string>
+    <string name="app_name">Inicio Sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="no_registrado">¿Aun no estas registrado?</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="entrar_invitado">¿Quieres entrar como invitado?</string>
+    <string name="invitado">Invitado</string>
+
+
 </resources>
