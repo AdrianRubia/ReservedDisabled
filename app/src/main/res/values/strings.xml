@@ -1,12 +1,13 @@
 <resources>
-    <string name="app_name">Inicio Sesión</string>
-    <string name="usuario">Usuario</string>
+    <string name="Activity1">Inicio Sesión</string>
+    <string name="Activity2">Registro</string>
+    <string name="email">Correo Electrónico</string>
     <string name="password">Password</string>
-    <string name="iniciar">Iniciar</string>
-    <string name="no_registrado">¿Aun no estas registrado?</string>
-    <string name="registrarse">Registrarse</string>
-    <string name="entrar_invitado">¿Quieres entrar como invitado?</string>
-    <string name="invitado">Invitado</string>
+    <string name="start">Iniciar</string>
+    <string name="no_register">¿Aun no estas registrado?</string>
+    <string name="register">Registrarse</string>
+    <string name="start_invited">¿Quieres entrar como invitado?</string>
+    <string name="invited">Invitado</string>
 
 
 </resources>
