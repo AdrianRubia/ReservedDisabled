@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/ivSplash"
-        android:layout_width="366dp"
-        android:layout_height="497dp"
+        android:layout_width="403dp"
+        android:layout_height="566dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginBottom="8dp"
@@ -22,11 +22,12 @@
         android:layout_marginTop="8dp"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:src="@drawable/imagensplash"
+        android:src="@drawable/logosplash"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
 
 
 </android.support.constraint.ConstraintLayout>

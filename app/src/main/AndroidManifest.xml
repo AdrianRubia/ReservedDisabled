@@ -17,8 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity"
+        <activity
+            android:name=".RegisterActivity"
             android:label="@string/Activity2">
+        </activity>
+        <activity
+            android:name=".UserActivity"
+            android:label="@string/Activity3">
         </activity>
     </application>
 
