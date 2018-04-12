@@ -116,7 +116,7 @@
         tools:layout_editor_absoluteY="325dp">
 
         <TextView
-            android:id="@+id/PasswordUserTextView"
+            android:id="@+id/passwordUserTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/passwordUser"

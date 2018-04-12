@@ -18,29 +18,29 @@ import org.json.JSONObject;
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
 
-    EditText etName, etEmail, etPassword;
-    Button bttRegister;
+    EditText et_Name, et_Email, et_Password;
+    Button btt_Register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        etName = findViewById(R.id.nameRegisterEditText);
-        etEmail = findViewById(R.id.emailRegisterEditText);
-        etPassword = findViewById(R.id.passwordRegisterEditText);
+        et_Name = findViewById(R.id.nameRegisterEditText);
+        et_Email = findViewById(R.id.emailRegisterEditText);
+        et_Password = findViewById(R.id.passwordRegisterEditText);
 
-        bttRegister = findViewById(R.id.registerRegisterButton);
+        btt_Register = findViewById(R.id.registerRegisterButton);
 
-        bttRegister.setOnClickListener(this);
+        btt_Register.setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View view) {
-        final String name=etName.getText().toString();
-        final String email=etEmail.getText().toString();
-        final String password=etPassword.getText().toString();
+        final String name=et_Name.getText().toString();
+        final String email=et_Email.getText().toString();
+        final String password=et_Password.getText().toString();
 
         Response.Listener<String> respoListener = new Response.Listener<String>() {
 
@@ -56,7 +56,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                     }else{
                         AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
                         builder.setMessage("Error al registrarte")
-                                .setNegativeButton("Retry",null)
+                                .setNegativeButton("Vuelve a intentarlo",null)
                                 .create().show();
                     }
 
@@ -67,8 +67,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         };
 
     RegisterRequest registerRequest= new RegisterRequest(name, email, password, respoListener);
-    RequestQueue queue = Volley.newRequestQueue(RegisterActivity.this);
-    queue.add(registerRequest);
+        RequestQueue queue = Volley.newRequestQueue(RegisterActivity.this);
+        queue.add(registerRequest);
 
     }
 }
