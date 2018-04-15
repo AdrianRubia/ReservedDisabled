@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.proyecto.reserveddisabled">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logosplash"
+        android:icon="@drawable/logo"
         android:label="@string/Activity1"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -21,12 +21,13 @@
         </activity>
         <activity
             android:name=".RegisterActivity"
-            android:label="@string/Activity2">
-        </activity>
+            android:label="@string/Activity2"></activity>
         <activity
             android:name=".UserActivity"
-            android:label="@string/Activity3">
-        </activity>
+            android:label="@string/Activity3"></activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/Activity4"></activity>
     </application>
 
 </manifest>
